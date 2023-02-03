@@ -1,0 +1,18 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  /* position: relative; */
+  max-width: 1184px;
+  /* max-height: 18px; */
+  width: 100%;
+  margin: 0 0 24px 0;
+  
+}
+
+
+@media(max-width: 650px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+}
