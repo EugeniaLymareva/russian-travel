@@ -2,7 +2,9 @@
   display: flex;
   flex-direction: column;
   max-width: 984px;
-  margin: 0 148px 92px;
+  width: calc(100% - 296px);
+  margin: auto;
+  /* margin: 0 148px 92px; */
   /* grid-template-columns: repeat(auto-fit, minmax(320px, 984px)); */
   /* grid-template-areas:
   "kosa"
@@ -13,19 +15,23 @@
 @media(max-width: 1024px) {
   .places {
     max-width: 928px;
-    margin: 0 48px 92px;
+    width: calc(100% - 96px);
+    margin: auto;
   }
 }
 
 @media(max-width: 768px) {
   .places {
     max-width: 720px;
-    margin: 0 24px 90px;
+    width: calc(100% - 48px);
+    margin: auto;
+    /* margin: 0 24px 19px; */
   }
 }
 
 @media(max-width: 320px) {
   .places {
+    width: 100%;
     max-width: 320px;
     margin: 0;
   }

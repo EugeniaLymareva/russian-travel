@@ -1,8 +1,8 @@
 .header__lang-link {
   position: absolute;
   /* max-width: 30px; */
-  margin-right: 18px;
-  top: 18px;
+  /* margin-right: 18px; */
+  top: 17px;
   right: 0;
   bottom: 6px;
   line-height: 1.17;
@@ -21,5 +21,8 @@
     font-size: 18px;
     line-height: 1.11;
   }
+  .header__lang-link:nth-child(2) {
+    top: 15px;
+    right: 40px;
+  }
 }
-

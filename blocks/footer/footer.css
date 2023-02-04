@@ -4,9 +4,18 @@
   /* position: relative; */
   max-width: 1184px;
   /* max-height: 18px; */
-  width: 100%;
-  margin: 0 0 24px 0;
-  
+  width: calc(100% - 96px);
+  margin: auto;
+  margin-bottom: 24px;
+  /* margin: 0 0 24px 0; */
+
+}
+
+@media(max-width: 768px) {
+  .footer {
+    width: calc(100% - 48px);
+    margin: auto;
+  }
 }
 
 
@@ -14,5 +23,6 @@
   .footer {
     display: flex;
     flex-direction: column;
+    margin-left: 16px;
   }
 }

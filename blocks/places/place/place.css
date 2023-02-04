@@ -2,11 +2,16 @@
   display: grid;
   grid-template-areas:
   "title website"
-  "image paragraph-1"
-  "image paragraph-2";
+  "image paragraphs"
+  "image paragraphs";
   margin-bottom: 80px;
   width: 100%;
 }
+
+.place:last-child .place__paragraph {
+  margin: 0;
+}
+
 
 @media(max-width: 768px) {
   .place {
@@ -16,13 +21,13 @@
 
 @media(max-width: 650px) {
   .place {
-    margin-bottom: 41px;
+    margin-bottom: 50px;
     grid-template-areas:
     "title"
     "website"
     "image"
-    "paragraph-1"
-    "paragraph-2";
+    "paragraphs";
+
   }
 }
 

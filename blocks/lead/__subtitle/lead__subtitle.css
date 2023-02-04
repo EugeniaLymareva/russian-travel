@@ -8,9 +8,16 @@
   margin: 0 auto 64px;
 }
 
+@media(max-width: 1024px) {
+  .lead__subtitle {
+    margin: 0 auto 55px;
+  }
+}
+
 @media(max-width: 450px) {
   .lead__subtitle {
     font-size: 16px;
     line-height: 1.25;
+    margin: 0 auto 40px;
   }
 }
