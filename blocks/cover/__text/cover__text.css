@@ -14,8 +14,8 @@
   color: white;
 }
 
-@media(max-width: 530px) {
+/* @media(max-width: 530px) {
   .cover__text {
     max-width: 288px;
   }
-}
+} */
