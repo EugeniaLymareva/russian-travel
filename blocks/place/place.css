@@ -2,7 +2,6 @@
   display: grid;
   grid-template-areas:
   "title website"
-  "image paragraphs"
   "image paragraphs";
   margin-bottom: 80px;
   width: 100%;
