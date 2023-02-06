@@ -8,10 +8,9 @@
   width: 100%;
 }
 
-.place:last-child .place__paragraph {
-  margin: 0;
+.place:last-child {
+  margin-bottom: 0;
 }
-
 
 @media(max-width: 768px) {
   .place {

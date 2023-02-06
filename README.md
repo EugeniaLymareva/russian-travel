@@ -13,4 +13,5 @@
 * HTML
 * CSS
 
-https://github.com/EugeniaLymareva/russian-travel.git
+### Проект на Git hub Pages
+https://eugenialymareva.github.io/russian-travel/

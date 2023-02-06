@@ -14,14 +14,12 @@
 @media(max-width: 768px) {
   .footer {
     width: calc(100% - 48px);
-    margin: auto;
   }
 }
 
 
 @media(max-width: 650px) {
   .footer {
-    display: flex;
     flex-direction: column;
     margin-left: 16px;
   }

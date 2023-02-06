@@ -7,24 +7,14 @@
   width: calc(100% - 96px);
   margin:auto;
   margin-bottom: 92px;
-  /* margin: 0 48px 92px 48px; */
-  /* box-sizing: border-box; */
 }
 
-/* @media(max-width: 1024px) {
-  .photo-grid {
-    width: calc(100% - 96px);
-    column-gap: 14px;
-    row-gap: 14px;
-  }
-} */
+
 
 @media(max-width: 768px) {
   .photo-grid {
     width: calc(100% - 48px);
     margin-bottom: 88px;
-    /* margin: 0 24px 88px 24px; */
-    gap: 16px;
   }
 }
 
@@ -32,9 +22,8 @@
 @media(max-width: 320px) {
   .photo-grid {
     width: calc(100% - 32px);
-    margin: auto;
-    margin-bottom: 67px;
-    /* margin: 0 16px 64px 16px; */
+    /* margin: auto; */
+    margin-bottom: 64px;
     gap: 12px;
   }
 }
