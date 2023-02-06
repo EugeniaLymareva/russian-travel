@@ -28,7 +28,6 @@
   .header {
     max-width: 288px;
     margin-top: 16px;
-    margin-bottom: 48px;
     width: calc(100% - 32px);
   }
 }
